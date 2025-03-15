@@ -15,7 +15,7 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: testing-harbor-portal
+            name: local-harbor-portal
             port:
               number: 80
 
